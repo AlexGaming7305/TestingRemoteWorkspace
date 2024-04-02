@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:packed_mud"
+    },
+    "title": {
+      "translate": "advancements.asrjvgwerg.title"
+    },
+    "description": {
+      "translate": "advancements.asrjvgwerg.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "asrjvgwerg": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

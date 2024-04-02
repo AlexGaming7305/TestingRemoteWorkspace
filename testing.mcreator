@@ -128,6 +128,18 @@
           }
         ]
       }
+    },
+    {
+      "name": "Asrjvgwerg",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asrjvgwerg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/testing/advancements/asrjvgwerg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -136,7 +148,9 @@
     "en_us": {
       "attribute.testing.axe_damage": "Axe Damage",
       "attribute.testing.damage_reduction": "Damage Reduction",
-      "attribute.testing.armor_penetration": "Armor Penetration"
+      "advancements.asrjvgwerg.title": "Asrjvgwerg",
+      "attribute.testing.armor_penetration": "Armor Penetration",
+      "advancements.asrjvgwerg.descr": "awefawegawe"
     }
   },
   "foldersRoot": {
