@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:cherry_planks"
+    },
+    "title": {
+      "translate": "advancements.yes.title"
+    },
+    "description": {
+      "translate": "advancements.yes.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yes": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:pointed_dripstone"
+          }
+        ]
+      }
+    }
+  }
+}
