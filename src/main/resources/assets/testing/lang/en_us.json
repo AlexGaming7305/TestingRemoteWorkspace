@@ -1,7 +1,5 @@
 {
-  "advancements.yes.title": "Yes",
   "attribute.testing.axe_damage": "Axe Damage",
   "attribute.testing.damage_reduction": "Damage Reduction",
-  "attribute.testing.armor_penetration": "Armor Penetration",
-  "advancements.yes.descr": "yes"
+  "attribute.testing.armor_penetration": "Armor Penetration"
 }
