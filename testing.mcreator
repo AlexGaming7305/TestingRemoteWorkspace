@@ -1,0 +1,169 @@
+{
+  "mod_elements": [
+    {
+      "name": "AxeDamage",
+      "type": "attribute",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_damage",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AxeDamageProcedure",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_damage_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testing/procedures/AxeDamageProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DamageDisplay",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage_display",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testing/procedures/DamageDisplayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArmorPenetration",
+      "type": "attribute",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_penetration",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ArmorPenetrationProcedure",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_penetration_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testing/procedures/ArmorPenetrationProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DamageReduction",
+      "type": "attribute",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage_reduction",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DamageReductionProcedure",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage_reduction_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testing/procedures/DamageReductionProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "attribute.testing.axe_damage": "Axe Damage",
+      "attribute.testing.damage_reduction": "Damage Reduction",
+      "attribute.testing.armor_penetration": "Armor Penetration"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "testing",
+    "modName": "Testing",
+    "version": "1.0.0",
+    "author": "emanu, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib",
+      "playeranimator"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.testing",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
